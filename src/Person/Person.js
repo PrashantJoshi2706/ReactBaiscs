@@ -1,6 +1,9 @@
 import React from "react";
+import Radium from 'radium';
 import './Person.css'
 const person = (props) => {
+  
+  
   return (
     <div className="Person">
       <h1 onClick={props.click}>

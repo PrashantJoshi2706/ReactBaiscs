@@ -9,7 +9,7 @@ import Practice from './Practice';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Practice />
+    <AppClass />
   </React.StrictMode>
 );
 
