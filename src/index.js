@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import AppClass from './appClass';
+import AppClass from './containers/appClass';
 
 import reportWebVitals from './reportWebVitals';
 import Practice from './Practice';
