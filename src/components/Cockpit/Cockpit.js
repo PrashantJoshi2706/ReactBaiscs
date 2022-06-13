@@ -1,6 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./Cockpit.css";
 const Cockpit = (props) => {
+  useEffect(()=>{
+    console.log("cockpit use effect called");
+    setTimeout(()=>{
+      alert("saved data to cloud")
+    }, 1000);
+  },[props.persons])
+
   const assignedClasses = [];
   let btnClass = "";
   if (props.showPersons) {
